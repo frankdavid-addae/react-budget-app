@@ -88,8 +88,8 @@ const AddTransaction = () => {
           <input type='submit' value='Submit' />
         </div>
       </form>
-      <form>
-        <div className='input-group expense' onSubmit={onSubmitExpense}>
+      <form onSubmit={onSubmitExpense}>
+        <div className='input-group expense'>
           <input
             type='text'
             name='expenseText'
